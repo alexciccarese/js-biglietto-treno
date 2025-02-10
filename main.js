@@ -18,17 +18,17 @@ console.log(età);
 const prezzoKm = 0.212
 console.log(prezzoKm);
 
-const prezzoTotale = km * prezzoKm
+let prezzoTotale = km * prezzoKm
 console.log(prezzoTotale);
 
 // Sconti
 if (età < 18) {
-  prezzoScontato = prezzoTotale * 0.8
+  prezzoTotale = prezzoTotale * 0.8
   
 
 } else if (età > 65) {
-  prezzoScontato = prezzoTotale * 0.633
+  prezzoTotale = prezzoTotale * 0.633
 }
-console.log(prezzoScontato)
+console.log(prezzoTotale)
 
 
