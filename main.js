@@ -26,7 +26,7 @@ if (età < 18) {
   prezzoTotale = prezzoTotale * 0.8
   
 } else if (età > 65) {
-  prezzoTotale = prezzoTotale * 0.633
+  prezzoTotale = prezzoTotale * 0.6
 }
 console.log(prezzoTotale)
 
