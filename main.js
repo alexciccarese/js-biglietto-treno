@@ -25,10 +25,13 @@ console.log(prezzoTotale);
 if (età < 18) {
   prezzoTotale = prezzoTotale * 0.8
   
-
 } else if (età > 65) {
   prezzoTotale = prezzoTotale * 0.633
 }
 console.log(prezzoTotale)
 
+// Prezzo in decimali
+let prezzoFinale = prezzoTotale.toFixed(2)
 
+// Mostra prezzo in alert
+alert(`Il prezzo del tuo biglietto è: ${prezzoFinale} €`)
